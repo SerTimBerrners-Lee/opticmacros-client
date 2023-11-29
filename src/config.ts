@@ -1,0 +1,1 @@
+export const URI_SERVER = 'http://localhost:5001/api';

@@ -1,0 +1,24 @@
+{
+  "name": "opticmacros-client",
+  "version": "1.0.0",
+  "description": "CLI client",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:prod": "node dist/index.js",
+    "start:dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "david.perov60@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/commander": "^2.12.2",
+    "axios": "^1.6.2",
+    "commander": "^11.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}
